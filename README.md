@@ -4,6 +4,13 @@ This is repo that stores my notes & code demo of 100-day challenge with Apache K
 The detail: https://developer.confluent.io/100-days-of-code/
 
 ## Part 01: Introduction
+### Day 001: Quick start
+- Set up local Kafka environment: use [docker-compose](./docker-compose.yml)
+- Basic Kafka CLI:
+    + Start Kafka broker
+    + Topic: create/delete
+    + Message: read/write
+    + Stop Kafka broker
 ## Part 02: Languages and CLIs
 ## Part 03: Schemas
 ## Part 04: Stream Processing with Kafka Streams
