@@ -13,7 +13,17 @@ The detail: https://developer.confluent.io/100-days-of-code/
     + Stop Kafka broker
 ### Day 002-007: Basic concepts
 #### Event
+> An event is any type of action, incident, or change that's identified or recorded by software or applications. For example, a payment, a website click, or a temperature reading, along with a description of what happened.
+
+Kafka is based on the abstraction of a distributed commit log.
+
+Kafka models events as key/value pairs (keys & values are sequences of bytes).
 #### Topic
+Topic is the foundamental unit of Kafka organization, like a table in a relational database. A topic is a log of events.
+- Append only
+- Be read by seeking the offset
+- Immutable
+- Expire data (config by retention)
 #### Partition
 Q: We need a way of deciding which messages to write to which partition?
 
