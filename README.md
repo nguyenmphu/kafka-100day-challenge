@@ -34,7 +34,13 @@ A: If messages has no key, they are written to the partitions by round - robin. 
 - Handle read/write requests
 - Manage replicas of partitions
 #### Producer
+Classes:
+- `KafkaProducer`
+- `ProducerRecord`
 #### Consumer
+Classes:
+- `KafkaConsumer`
+- `ConsumerRecord`
 ## Part 02: Languages and CLIs
 ## Part 03: Schemas
 ## Part 04: Stream Processing with Kafka Streams
