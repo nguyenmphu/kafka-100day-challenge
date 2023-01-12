@@ -41,7 +41,7 @@ Classes:
 Classes:
 - `KafkaConsumer`
 - `ConsumerRecord`
-### DAy 008 Kafka connect
+### Day 008: Kafka connect
 > Kafka Connect is a component of Apache Kafka that's used to perform streaming intergration between Kafka and other system such as databases, cloud services, search indexes, file systems, and key-value stores.
 
 Kafka Hub: https://www.confluent.io/hub
@@ -50,6 +50,12 @@ Some use cases:
 - Writing to datastores for Kafka
 - Make systems real time
 - Change data capture (e.g Debezium)
+### Day 009: Kafka Streams
+> `Kafka Streams` is a Java API that gives you easy access to all of the computational primitives of stream processing: filtering, grouping, aggregating, joining, and more, keeping you from having to write framework code on top of the consumer API to do all those things.
+### Day 010: ksqlDB
+> `ksqlDB` is a highly specialized kind of database that is optimized for stream processing applications. It runs on a scalable, fault-tolerant cluster of its own, exposing a REST interface to applications, which can then submit new stream processing jobs to run and query the results.
+
+Install: see file `docker-compose.yml` (TODO)
 
 ## Part 02: Languages and CLIs
 ## Part 03: Schemas
